@@ -1,11 +1,11 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import Navigator from './navigation';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navigator />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
