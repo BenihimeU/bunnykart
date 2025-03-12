@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bunnykart/static/css/main.13467d7c.css",
-    "main.js": "/bunnykart/static/js/main.1b1018b6.js",
+    "main.js": "/bunnykart/static/js/main.f76c527a.js",
     "static/js/453.491a5f60.chunk.js": "/bunnykart/static/js/453.491a5f60.chunk.js",
     "index.html": "/bunnykart/index.html",
     "main.13467d7c.css.map": "/bunnykart/static/css/main.13467d7c.css.map",
-    "main.1b1018b6.js.map": "/bunnykart/static/js/main.1b1018b6.js.map",
+    "main.f76c527a.js.map": "/bunnykart/static/js/main.f76c527a.js.map",
     "453.491a5f60.chunk.js.map": "/bunnykart/static/js/453.491a5f60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13467d7c.css",
-    "static/js/main.1b1018b6.js"
+    "static/js/main.f76c527a.js"
   ]
 }
