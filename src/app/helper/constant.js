@@ -1,3 +1,3 @@
 export default {
-    appName: 'BunnyKart'
+    appName: 'Bunny Kart'
 }
