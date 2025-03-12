@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bunny-kart/static/css/main.13467d7c.css",
-    "main.js": "/bunny-kart/static/js/main.2522223f.js",
-    "static/js/453.510bc2c3.chunk.js": "/bunny-kart/static/js/453.510bc2c3.chunk.js",
-    "index.html": "/bunny-kart/index.html",
-    "main.13467d7c.css.map": "/bunny-kart/static/css/main.13467d7c.css.map",
-    "main.2522223f.js.map": "/bunny-kart/static/js/main.2522223f.js.map",
-    "453.510bc2c3.chunk.js.map": "/bunny-kart/static/js/453.510bc2c3.chunk.js.map"
+    "main.css": "/bunnykart/static/css/main.13467d7c.css",
+    "main.js": "/bunnykart/static/js/main.90d0c71e.js",
+    "static/js/453.510bc2c3.chunk.js": "/bunnykart/static/js/453.510bc2c3.chunk.js",
+    "index.html": "/bunnykart/index.html",
+    "main.13467d7c.css.map": "/bunnykart/static/css/main.13467d7c.css.map",
+    "main.90d0c71e.js.map": "/bunnykart/static/js/main.90d0c71e.js.map",
+    "453.510bc2c3.chunk.js.map": "/bunnykart/static/js/453.510bc2c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13467d7c.css",
-    "static/js/main.2522223f.js"
+    "static/js/main.90d0c71e.js"
   ]
 }
