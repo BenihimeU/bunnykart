@@ -2,8 +2,12 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Change this if your main branch has a different name
+    branches: ['gh-pages']
+
+permissions:
+  contents: read  
+  pages: write      
+  id-token: write   
 
 jobs:
   build-and-deploy:
@@ -12,20 +16,22 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Install Dependencies
         run: npm install
 
       - name: Build React App
         run: CI=false npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3   
         with:
-          branch: gh-pages
-          folder: build
+           name: 'github-pages'
+           path: build
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifact_name: 'github-pages'
